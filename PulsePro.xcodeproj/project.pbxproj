@@ -180,6 +180,7 @@
 		0CF6E6392717179B00CC3B30 /* TextSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6E6382717179B00CC3B30 /* TextSearchViewModel.swift */; };
 		0CF6E63B27171B4C00CC3B30 /* TextSearchToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6E63A27171B4C00CC3B30 /* TextSearchToolbar.swift */; };
 		0CFB25D92708A25F00A06026 /* RemoteLoggerClientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFB25D82708A25F00A06026 /* RemoteLoggerClientViewModel.swift */; };
+		A39F667129DF4E45002150B9 /* ConsoleMetadataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39F667029DF4E45002150B9 /* ConsoleMetadataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -377,6 +378,7 @@
 		0CF6E63A27171B4C00CC3B30 /* TextSearchToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSearchToolbar.swift; sourceTree = "<group>"; };
 		0CFB25D82708A25F00A06026 /* RemoteLoggerClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteLoggerClientViewModel.swift; sourceTree = "<group>"; };
 		0CFF9BD825D6199A0069DB6A /* repos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = repos.json; sourceTree = "<group>"; };
+		A39F667029DF4E45002150B9 /* ConsoleMetadataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleMetadataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -647,6 +649,7 @@
 		0C56330528AAB952009B4815 /* MessageDetails */ = {
 			isa = PBXGroup;
 			children = (
+				A39F667029DF4E45002150B9 /* ConsoleMetadataView.swift */,
 				0C56330628AAB952009B4815 /* ConsoleMessageMetadataView.swift */,
 				0C56330728AAB952009B4815 /* ConsoleMessageDetailsView.swift */,
 				0C56330828AAB952009B4815 /* ConsoleMessageDetailsRouter.swift */,
@@ -1040,6 +1043,7 @@
 				0C17B211270502C100784EDC /* NetworkMessagesTextSearch.swift in Sources */,
 				0C56335C28AAB952009B4815 /* RichTextView.swift in Sources */,
 				0C5633AA28AAB952009B4815 /* MockTask.swift in Sources */,
+				A39F667129DF4E45002150B9 /* ConsoleMetadataView.swift in Sources */,
 				0C32EBD126FCB83A000EB5E6 /* MainViewModelPro.swift in Sources */,
 				0C56338D28AAB952009B4815 /* NetworkInspectorTransactionsListView.swift in Sources */,
 				0C56334528AAB952009B4815 /* SearchBar-macos.swift in Sources */,

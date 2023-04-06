@@ -30,6 +30,7 @@ struct MessageDetailsViewPro: View {
             .padding([.leading, .trailing], 6)
             .frame(height: 27, alignment: .center)
             Divider()
+            ConsoleMetadataView(message: viewModel.message)
             textView
                 .background(colorScheme == .dark ? Color(NSColor(red: 30/255.0, green: 30/255.0, blue: 30/255.0, alpha: 1)) : .clear)
         }
